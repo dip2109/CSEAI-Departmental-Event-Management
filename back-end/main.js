@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000; // Use the port provided by the environme
 app.use(express.json());
 
 // MongoDB connection URI
-const uri = 'mongodb+srv://gangardedipa:YCiXG1IWCeplLWfm@dbmswtproject.2l1nsgw.mongodb.net/EventManagement?retryWrites=true&w=majority'; // Include the database name in the URI
+const uri = 'mongodb+srv://gangardedipa:jlAe2y014ILvOsoR@testmongodb.ac6cjzm.mongodb.net/eventManagement?retryWrites=true&w=majority&appName=TestMongoDB'; // Include the database name in the URI
 const collectionName = 'users'; // Specify the collection name for your users
 
 // Function to connect to MongoDB
@@ -49,7 +49,7 @@ app.get('/api/users', async (req, res) => {
 });
 
 app.get('/api/hello', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello World! Dipali');
 });
 
 // Start the server
