@@ -12,6 +12,11 @@ body {
     padding-left: 100px;
     padding-right: 100px;
 }
+.color-white1{
+    margin-top:5px;
+    margin-bottom:5px;
+    color: white;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -29,11 +34,12 @@ body {
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -56,11 +62,52 @@ body {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
 }
 
+.color-white {
+    /* color: white; */
+}
+
+#totalCount {
+    border-radius: 4px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    width: 120px;
+    padding: 4px 8px;
+}
+
+.user-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #f9f9f9;
+    min-width: 200px;
+}
+
+.user-card p {
+    margin: 5px 0;
+}
+
+.user-card p strong {
+    font-weight: bold;
+}
+
+.user-card p:last-child {
+    margin-bottom: 0;
+}
+
+#userCards {
+    display: flex;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    padding-bottom: 5px;
+
+}
 
 /* Caption text */
 /* .text {
@@ -108,14 +155,16 @@ transition: background-color 0.6s ease;
     cursor: pointer;
     height: 10px;
     width: 10px;
-    margin: 0 5px; /* Adjust as needed */
+    margin: 0 5px;
+    /* Adjust as needed */
     background-color: #7b7b7b;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
     background-color: #ffffff;
     color: rgb(49, 49, 49);
 }
@@ -127,8 +176,13 @@ transition: background-color 0.6s ease;
 }
 
 @keyframes fade {
-    from {opacity: .6}
-    to {opacity: 1}
+    from {
+        opacity: .6
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 
@@ -140,20 +194,21 @@ transition: background-color 0.6s ease;
 
 
 
-  
-  
-  .container {
+
+
+.container {
     width: 100%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.marq{
+.marq {
     background-color: rgb(3, 3, 3);
-    color:white;
+    color: white;
 }
+
 .item-container {
     position: relative;
     margin: 24px;
@@ -283,22 +338,22 @@ transition: background-color 0.6s ease;
 h1 {
     text-align: center;
     color: white;
-  }
+}
 
-  .container {
+.container {
     display: flex;
 }
 
 .row {
     flex: 1;
 }
-.event-info .title{
+
+.event-info .title {
     color: white;
 }
 
-.marq { 
+.marq {
     font-size: 20px;
-    padding-top: 15px; 
-    padding-bottom: 15px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-
